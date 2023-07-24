@@ -1,6 +1,7 @@
-//pequeño texto acerca de mi 
+//pequeño texto acerca de mi (HOME)
+import SergioPic from "../img/IMG-20230622-WA0002(1).jpg"
 
-const AboutMe = () => {
+const AboutMeBox = () => {
     return (
         <div>
             <h1 className="">Acerca de mi</h1>
@@ -9,8 +10,8 @@ const AboutMe = () => {
             He estado utilizando tecnologías como Javascript, React y varios frameworks como lo son Bootstrap y Tailwind. </p>
 
 
-
+            <img src={SergioPic} alt="No funciona" />
         </div>
     )
 }
-export default AboutMe
+export default AboutMeBox

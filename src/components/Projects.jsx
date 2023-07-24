@@ -1,5 +1,5 @@
 import contactsImg from '../img/contacts.png'
-
+import React from 'react'
 
 const Projects = () => {
     return(

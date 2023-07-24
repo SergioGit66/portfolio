@@ -1,8 +1,10 @@
 import BackGroundImg from '../img/backgroundImg.jpg';
+import React from 'react';
+
 
 const InfoCard = () => {
     return (
-        <img src={BackGroundImg} />
+        <img className="" src={BackGroundImg} />
     )
 }
 
